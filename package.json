@@ -1,23 +1,19 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
-  "description": "my package",
+  "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zkrutikov/portfolio-generator.git"
-  },
-  "author": "Zak K",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zkrutikov/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/zkrutikov/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
-  },
-  "devDependencies": {}
+    "inquirer": "^7.0.3"
+  }
 }
